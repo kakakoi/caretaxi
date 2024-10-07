@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>介護タクシーサービス</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #f4f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #00796b;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+
+        .contact-info {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #ffa000;
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 25px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button i {
+            margin-right: 10px;
+        }
+
+        .cta-button:hover {
+            background-color: #ff8c00;
+        }
+
+        .service-description,
+        .pricing,
+        .testimonials {
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #00796b;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            .cta-button {
+                padding: 10px 20px;
+                font-size: 1em;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>フオーオール株式会社</h1>
+        <div class="contact-info cta-buttons">
+            <a href="tel:0123456789" class="cta-button">
+                <i class="fas fa-phone-alt"></i>ご予約: 0123-456-789
+            </a>
+            <a href="tel:0123456789" class="cta-button">
+                <i class="fas fa-phone-alt"></i>お問い合わせ
+            </a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="hero">
+            <img src="taxi-top.webp" alt="介護タクシーサービス">
+        </div>
+
+        <div class="service-description">
+            <h2>サービス概要</h2>
+            <p>当社の介護タクシーは、車椅子や介護が必要な方でも安心してご利用いただける移動サービスです。経験豊富なドライバーが、安全・快適に目的地までお連れします。</p>
+        </div>
+
+        <div class="pricing">
+            <h2>料金プラン</h2>
+            <p>基本料金: 〇〇円／30分</p>
+            <p>迎車料金、深夜割増など別途料金が発生する場合がございます。</p>
+        </div>
+
+        <div class="testimonials">
+            <h2>お客様の声</h2>
+            <p>「定期的な通院で利用しています。とても安心して乗ることができ、いつも親切にしてもらっています。」（60代女性）</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>住所: 〇〇市〇〇町1-1-1</p>
+        <p>メール: <a href="mailto:info@kaigotaxi.jp" style="color: #ffeb3b;">info@kaigotaxi.jp</a></p>
+    </footer>
+</body>
+
+</html>
